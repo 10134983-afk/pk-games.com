@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>us.com</title>
+  <style>
+    body {
+      background: radial-gradient(circle, #001133, #000000);
+      color: white;
+      font-family: "Press Start 2P", Arial, sans-serif;
+      text-align: center;
+      animation: glow 5s infinite alternate;
+      margin: 0;
+      padding: 0;
+    }
+
+    @keyframes glow {
+      from { background: radial-gradient(circle, #001133, #000000); }
+      to { background: radial-gradient(circle, #003366, #000000); }
+    }
+
+    h1 {
+      color: cyan;
+      margin-top: 40px;
+      text-shadow: 0 0 10px cyan;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: block;
+      width: 300px;
+      margin: 15px auto;
+      padding: 15px;
+      background-color: #0033ff;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 10px;
+      border: 3px solid cyan;
+      font-family: "Press Start 2P", Arial, sans-serif;
+      animation: pixel 1s infinite alternate;
+      transition: 0.2s;
+    }
+
+    @keyframes pixel {
+      from { transform: translateY(0px); }
+      to { transform: translateY(-5px); }
+    }
+
+    .button:hover {
+      background-color: #0011aa;
+      box-shadow: 0 0 15px cyan;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to us.com</h1>
+  <p>Click a game or app below</p>
+
+  <a class="button" href="https://www.roblox.com" target="_blank">Roblox</a>
+  <a class="button" href="https://www.minecraft.net" target="_blank">Minecraft</a>
+  <a class="button" href="https://store.steampowered.com/app/332800" target="_blank">FNaF 2</a>
+  <a class="button" href="https://www.facebook.com" target="_blank">Facebook</a>
+  <a class="button" href="https://www.tiktok.com" target="_blank">TikTok</a>
+  <a class="button" href="https://www.instagram.com" target="_blank">Instagram</a>
+  <a class="button" href="https://www.netflix.com" target="_blank">Netflix</a>
+  <a class="button" href="https://www.rockstargames.com/gta-v" target="_blank">GTA 5</a>
+
+  <a class="button" href="secret.html">Secret Page</a>
+
+</body>
+</html>
